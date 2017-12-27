@@ -12,6 +12,7 @@ public class TestOpenApp {
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("http://www.myhcl.com");
+		driver.close();
 	}
 
 }
